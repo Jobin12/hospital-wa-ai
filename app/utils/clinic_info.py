@@ -22,6 +22,10 @@ ADDRESS = (
     "Malappuram District, Kerala 673638"
 )
 GOOGLE_MAPS_HINT = "Kondotty, on Pazhayangadi Road, near the Marxist Party Office."
+GOOGLE_MAPS_URL = (
+    "https://www.google.com/maps/search/?api=1&query="
+    "Dr+Jamshi%27s+Homoeopathy+%26+Fertility+Centre%2C+Kondotty"
+)
 
 PHONE_NUMBERS = ["9633661111", "7012272950"]
 WHATSAPP_NUMBER = "919633661111"

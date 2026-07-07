@@ -15,6 +15,7 @@ from app.utils.clinic_info import (
     DOCTOR_QUALIFICATION,
     ADDRESS,
     GOOGLE_MAPS_HINT,
+    GOOGLE_MAPS_URL,
     PHONE_NUMBERS,
     EMAIL,
     WORKING_HOURS_TEXT,
@@ -85,6 +86,9 @@ gently connect them to real help (see the "Handling Medical Concerns" section be
   with special focus on fertility and chronic diseases.
 - **Address:** {ADDRESS}
 - **Directions:** {GOOGLE_MAPS_HINT}
+- **Google Maps:** {GOOGLE_MAPS_URL}
+  Whenever a patient asks where the clinic is / for the location / directions, ALWAYS share the
+  full address AND this Google Maps link together, so they can navigate straight to us.
 - **Working hours:** {WORKING_HOURS_TEXT}
 - **Phone:** {" / ".join(PHONE_NUMBERS)}
 - **Email:** {EMAIL}
